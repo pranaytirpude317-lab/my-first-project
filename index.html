@@ -1,0 +1,348 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="IRONFORGE — a strength and conditioning gym. Expert trainers, group classes, and membership plans built to push your limits."
+    />
+    <meta name="theme-color" content="#0c0c0d" />
+    <title>IRONFORGE — Strength &amp; Conditioning Gym</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Oswald:wght@500;600;700&family=Inter:wght@400;500;600&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <!-- Header / Navigation -->
+    <header class="site-header" id="top">
+      <div class="container header-inner">
+        <a href="#top" class="brand" aria-label="IRONFORGE home">
+          <span class="brand-mark" aria-hidden="true"></span>
+          IRON<span class="brand-accent">FORGE</span>
+        </a>
+
+        <nav class="nav" aria-label="Primary">
+          <button
+            class="nav-toggle"
+            id="navToggle"
+            aria-expanded="false"
+            aria-controls="navMenu"
+          >
+            <span class="sr-only">Toggle navigation</span>
+            <span class="nav-toggle-bar" aria-hidden="true"></span>
+          </button>
+          <ul class="nav-menu" id="navMenu">
+            <li><a href="#home">Home</a></li>
+            <li><a href="#services">Services</a></li>
+            <li><a href="#trainers">Trainers</a></li>
+            <li><a href="#membership">Membership</a></li>
+            <li><a href="#contact">Contact</a></li>
+          </ul>
+        </nav>
+
+        <a href="#membership" class="btn btn-primary header-cta">Join Now</a>
+      </div>
+    </header>
+
+    <main>
+      <!-- Home / Hero -->
+      <section class="hero" id="home">
+        <div class="hero-media">
+          <img
+            src="images/hero.png"
+            alt="Athlete training hard with a loaded barbell in a dark industrial gym"
+          />
+          <div class="hero-overlay" aria-hidden="true"></div>
+        </div>
+        <div class="container hero-content">
+          <p class="eyebrow hero-anim">No shortcuts. Only reps.</p>
+          <h1 class="hero-title hero-anim">
+            FORGE A BODY<br />THAT <span class="text-accent">REFUSES</span> TO QUIT
+          </h1>
+          <p class="hero-lead hero-anim">
+            Strength, conditioning, and coaching under one roof. Every rep is
+            programmed, every session is coached, and every win is earned right
+            here on the floor.
+          </p>
+          <div class="hero-actions hero-anim">
+            <a href="#membership" class="btn btn-primary">Start Training</a>
+            <a href="#services" class="btn btn-ghost">Explore Programs</a>
+          </div>
+
+          <dl class="hero-stats hero-anim">
+            <div>
+              <dt>Members</dt>
+              <dd data-count="2400" data-suffix="+">0</dd>
+            </div>
+            <div>
+              <dt>Coaches</dt>
+              <dd data-count="18">0</dd>
+            </div>
+            <div>
+              <dt>Weekly Classes</dt>
+              <dd data-count="90">0</dd>
+            </div>
+          </dl>
+        </div>
+      </section>
+
+      <!-- Services -->
+      <section class="section" id="services">
+        <div class="container">
+          <header class="section-head">
+            <p class="eyebrow">What we offer</p>
+            <h2 class="section-title">TRAINING <span class="text-accent">SERVICES</span></h2>
+            <p class="section-sub">
+              Programs engineered for every level — from your first session to
+              competition prep.
+            </p>
+          </header>
+
+          <div class="grid services-grid">
+            <article class="card service-card">
+              <span class="service-index">01</span>
+              <h3>Strength Training</h3>
+              <p>
+                Progressive barbell programming to build raw power, muscle, and
+                bulletproof joints.
+              </p>
+            </article>
+            <article class="card service-card">
+              <span class="service-index">02</span>
+              <h3>HIIT &amp; Conditioning</h3>
+              <p>
+                High-intensity circuits that torch calories and skyrocket your
+                cardiovascular engine.
+              </p>
+            </article>
+            <article class="card service-card">
+              <span class="service-index">03</span>
+              <h3>Personal Coaching</h3>
+              <p>
+                One-on-one sessions with a dedicated coach building a plan around
+                your exact goals.
+              </p>
+            </article>
+            <article class="card service-card">
+              <span class="service-index">04</span>
+              <h3>Group Classes</h3>
+              <p>
+                High-energy team workouts — spin, boxing, mobility, and more —
+                that keep you accountable.
+              </p>
+            </article>
+            <article class="card service-card">
+              <span class="service-index">05</span>
+              <h3>Nutrition Plans</h3>
+              <p>
+                Tailored meal frameworks and macro coaching to fuel performance
+                and recovery.
+              </p>
+            </article>
+            <article class="card service-card">
+              <span class="service-index">06</span>
+              <h3>Recovery &amp; Mobility</h3>
+              <p>
+                Guided stretching, sauna, and recovery protocols to keep you
+                training pain-free.
+              </p>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <!-- Trainers -->
+      <section class="section section-alt" id="trainers">
+        <div class="container">
+          <header class="section-head">
+            <p class="eyebrow">Meet the team</p>
+            <h2 class="section-title">EXPERT <span class="text-accent">TRAINERS</span></h2>
+            <p class="section-sub">
+              Certified, competition-tested coaches who live and breathe the
+              work they teach.
+            </p>
+          </header>
+
+          <div class="grid trainers-grid">
+            <article class="card trainer-card">
+              <div class="trainer-photo">
+                <img src="images/trainer-1.png" alt="Portrait of strength coach Marcus Cole" />
+              </div>
+              <div class="trainer-body">
+                <h3>Marcus Cole</h3>
+                <p class="trainer-role">Head Strength Coach</p>
+                <p class="trainer-bio">
+                  Former national powerlifter specializing in raw strength and
+                  competition prep.
+                </p>
+              </div>
+            </article>
+            <article class="card trainer-card">
+              <div class="trainer-photo">
+                <img src="images/trainer-2.png" alt="Portrait of conditioning coach Elena Vasquez" />
+              </div>
+              <div class="trainer-body">
+                <h3>Elena Vasquez</h3>
+                <p class="trainer-role">Conditioning &amp; HIIT</p>
+                <p class="trainer-bio">
+                  Endurance athlete turning brutal circuits into results you can
+                  feel in weeks.
+                </p>
+              </div>
+            </article>
+            <article class="card trainer-card">
+              <div class="trainer-photo">
+                <img src="images/trainer-3.png" alt="Portrait of personal trainer Devon Reed" />
+              </div>
+              <div class="trainer-body">
+                <h3>Devon Reed</h3>
+                <p class="trainer-role">Personal Coaching</p>
+                <p class="trainer-bio">
+                  Mobility and hypertrophy specialist focused on sustainable,
+                  injury-free progress.
+                </p>
+              </div>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <!-- Membership Plans -->
+      <section class="section" id="membership">
+        <div class="container">
+          <header class="section-head">
+            <p class="eyebrow">Pick your plan</p>
+            <h2 class="section-title">MEMBERSHIP <span class="text-accent">PLANS</span></h2>
+            <p class="section-sub">
+              No contracts, no hidden fees. Cancel anytime — the only commitment
+              is to yourself.
+            </p>
+          </header>
+
+          <div class="grid plans-grid">
+            <article class="card plan-card">
+              <h3 class="plan-name">Basic</h3>
+              <p class="plan-price"><span>$29</span>/mo</p>
+              <ul class="plan-features">
+                <li>Full gym floor access</li>
+                <li>Locker &amp; shower facilities</li>
+                <li>2 group classes / week</li>
+                <li>Fitness assessment</li>
+              </ul>
+              <a href="#contact" class="btn btn-ghost">Choose Basic</a>
+            </article>
+
+            <article class="card plan-card plan-featured">
+              <span class="plan-badge">Most Popular</span>
+              <h3 class="plan-name">Pro</h3>
+              <p class="plan-price"><span>$59</span>/mo</p>
+              <ul class="plan-features">
+                <li>Everything in Basic</li>
+                <li>Unlimited group classes</li>
+                <li>2 personal training sessions</li>
+                <li>Nutrition plan included</li>
+                <li>Recovery zone access</li>
+              </ul>
+              <a href="#contact" class="btn btn-primary">Choose Pro</a>
+            </article>
+
+            <article class="card plan-card">
+              <h3 class="plan-name">Elite</h3>
+              <p class="plan-price"><span>$99</span>/mo</p>
+              <ul class="plan-features">
+                <li>Everything in Pro</li>
+                <li>Unlimited personal training</li>
+                <li>Custom competition prep</li>
+                <li>Priority class booking</li>
+                <li>24/7 gym access</li>
+              </ul>
+              <a href="#contact" class="btn btn-ghost">Choose Elite</a>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <!-- Contact -->
+      <section class="section section-alt" id="contact">
+        <div class="container contact-inner">
+          <div class="contact-info">
+            <p class="eyebrow">Get in touch</p>
+            <h2 class="section-title">START YOUR <span class="text-accent">JOURNEY</span></h2>
+            <p class="section-sub">
+              Book a free tour or drop us a message. Our team will get you set up
+              with the right plan.
+            </p>
+            <ul class="contact-list">
+              <li>
+                <span class="contact-label">Address</span>
+                Civil Lines, Nagpur, OR 440030
+              </li>
+              <li>
+                <span class="contact-label">Phone</span>
+                <a href="tel:+7498457782">(749) 845-7782</a>
+              </li>
+              <li>
+                <span class="contact-label">Email</span>
+                <a href="mailto:train@ironforge.gym">train@ironforge.gym</a>
+              </li>
+              <li>
+                <span class="contact-label">Hours</span>
+                Mon–Fri 5am–11pm · Sat–Sun 7am–9pm
+              </li>
+            </ul>
+          </div>
+
+          <form class="contact-form card" id="contactForm" novalidate>
+            <div class="field">
+              <label for="name">Full name</label>
+              <input type="text" id="name" name="name" required autocomplete="name" />
+            </div>
+            <div class="field">
+              <label for="email">Email</label>
+              <input type="email" id="email" name="email" required autocomplete="email" />
+            </div>
+            <div class="field">
+              <label for="goal">Your goal</label>
+              <select id="goal" name="goal">
+                <option value="strength">Build strength</option>
+                <option value="weight-loss">Lose weight</option>
+                <option value="conditioning">Improve conditioning</option>
+                <option value="competition">Competition prep</option>
+              </select>
+            </div>
+            <div class="field">
+              <label for="message">Message</label>
+              <textarea id="message" name="message" rows="4" required></textarea>
+            </div>
+            <button type="submit" class="btn btn-primary btn-block">Send Message</button>
+            <p class="form-status" id="formStatus" role="status" aria-live="polite"></p>
+          </form>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <div class="container footer-inner">
+        <a href="#top" class="brand">
+          IRON<span class="brand-accent">FORGE</span>
+        </a>
+        <p class="footer-copy">
+          &copy; <span id="year"></span> IRONFORGE Gym. All rights reserved.
+        </p>
+        <nav class="footer-nav" aria-label="Footer">
+          <a href="#services">Services</a>
+          <a href="#trainers">Trainers</a>
+          <a href="#membership">Membership</a>
+          <a href="#contact">Contact</a>
+        </nav>
+      </div>
+    </footer>
+
+    <script src="script.js" defer></script>
+  </body>
+</html>
